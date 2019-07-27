@@ -1,0 +1,53 @@
+@import "../coponent/_color";
+
+/*
+* Lc recent posts
+ */
+
+.lc-recent-posts {
+  .lc-recent-post{
+    margin-bottom: 15px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  .lc-recent-post-title{
+    color: $widgets_title_color;
+    a{
+      color: $widgets_title_color;
+      &:hover{
+        color: $link_hover_color;
+        text-decoration: none;
+      }
+    }
+  }
+  // Post Meta
+  .lc-sidebar-post-meta{
+    margin-bottom: 10px;
+    span{
+      color: $post_meta_color;
+      font-size: 13px;
+      margin-right: 10px;
+      text-transform: capitalize;
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        color: $post_meta_color;
+        &:hover{
+          color: $link_hover_color;
+          text-decoration: none;
+        }
+      }
+      &:before{
+        color: $post_meta_color;
+        margin-right: 6px;
+        line-height: 6px;
+        font-size: 14px;
+      }
+    }
+  }
+
+}}

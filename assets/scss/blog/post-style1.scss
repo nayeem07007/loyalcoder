@@ -1,0 +1,21 @@
+.lc-blog-post-styl-1{
+  .lc-blog-post-group{
+    .lc-sidebar-post-meta{
+      span{
+        font-size: 13px;
+        color: #989898;
+        a{
+          color: #989898;
+          &:hover{
+            color: #6c757d;
+            text-decoration: none;
+          }
+        }
+        &:before{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+

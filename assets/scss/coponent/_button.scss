@@ -1,0 +1,17 @@
+@import "_color";
+.lc-primary{
+  color: $white;
+  background-color: $light_green;
+  &:hover{
+    color: $white;
+  }
+  &:focus{
+    box-shadow: 0 0 0 0.2rem $light_green_rgb;
+  }
+  &.lc-hover:hover{
+    background-color: $deep_green;
+  }
+}
+.focus-none:focus{
+  box-shadow: none;
+}

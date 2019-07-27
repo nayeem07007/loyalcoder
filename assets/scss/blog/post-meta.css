@@ -1,0 +1,23 @@
+/**
+* Include theme main color
+**/
+.post-meta {
+  margin-bottom: 10px; }
+  .post-meta span {
+    color: #989898;
+    margin-right: 10px;
+    text-transform: capitalize; }
+    .post-meta span:last-child {
+      margin-right: 0; }
+    .post-meta span a {
+      color: #989898; }
+      .post-meta span a:hover {
+        color: #6c757d;
+        text-decoration: none; }
+    .post-meta span:before {
+      color: #989898;
+      margin-right: 6px;
+      line-height: 6px;
+      font-size: 14px; }
+
+/*# sourceMappingURL=post-meta.css.map */

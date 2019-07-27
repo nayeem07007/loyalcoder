@@ -1,0 +1,85 @@
+@import "_color";
+@import "../mixins/mixins";
+
+.navbar-lc{
+  .container{
+    position: relative;
+  }
+}
+.navbar-lc {
+  li{
+    i{
+      position: absolute;
+      right: -9px;
+      top: 10px;
+    }
+  }
+  ul {
+    li.lc-has-child-menu{
+      position: relative;
+    }
+  }
+  ul {
+    li {
+      a.nav-link{
+        color: $menu_color;
+        @include transition(all .5s);
+        white-space: nowrap;
+        padding: 5px 15px !important;
+      }
+    }
+  }
+  ul li:hover > a{
+    color: $secoundary;
+  }
+  li ul.lc-submenu {
+    position: absolute;
+    top: 70px;
+    background-color: $white;
+    @include box-shadow-simple(0, 2px, 18px, -2px, rgba(0, 0, 0, .15));
+    padding: 5px 21px;
+    @include transition(all .5s);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+  }
+  li ul li{
+    display: block;
+  }
+  li ul.lc-submenu ul.lc-submenu{
+    top: 0;
+    left: calc(100% + 20px);
+  }
+  li:hover > ul.lc-submenu {
+    top: 45px;
+    visibility: visible;
+    opacity: 1;
+  }
+  .lc-submenu li i{
+    @include transform(rotate(-90deg));
+  }
+}
+.lc-menu-search{
+  form{
+    position: relative;
+    &:before{
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: transparent;
+      bottom: -5px;
+      position: absolute;
+      z-index: 1;
+    }
+    input[type="text"]{
+      @include transition(all .5s);
+      border: 0;
+      border-bottom: 1px solid transparent;
+      &:focus{
+        border-bottom: 1px solid rgba(237, 28, 26, .5);
+        outline: 0;
+      }
+    }
+  }
+
+}

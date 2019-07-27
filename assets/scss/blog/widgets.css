@@ -1,0 +1,40 @@
+/**
+* Include theme main color
+**/
+/*
+* Lc recent posts
+ */
+.lc-recent-posts .lc-recent-post {
+  margin-bottom: 15px; }
+  .lc-recent-posts .lc-recent-post:last-child {
+    margin-bottom: 0; }
+  .lc-recent-posts .lc-recent-post p {
+    margin-bottom: 0; }
+  .lc-recent-posts .lc-recent-post .lc-recent-post-title {
+    color: #111111; }
+    .lc-recent-posts .lc-recent-post .lc-recent-post-title a {
+      color: #111111; }
+      .lc-recent-posts .lc-recent-post .lc-recent-post-title a:hover {
+        color: #6c757d;
+        text-decoration: none; }
+  .lc-recent-posts .lc-recent-post .lc-sidebar-post-meta {
+    margin-bottom: 10px; }
+    .lc-recent-posts .lc-recent-post .lc-sidebar-post-meta span {
+      color: #989898;
+      font-size: 13px;
+      margin-right: 10px;
+      text-transform: capitalize; }
+      .lc-recent-posts .lc-recent-post .lc-sidebar-post-meta span:last-child {
+        margin-right: 0; }
+      .lc-recent-posts .lc-recent-post .lc-sidebar-post-meta span a {
+        color: #989898; }
+        .lc-recent-posts .lc-recent-post .lc-sidebar-post-meta span a:hover {
+          color: #6c757d;
+          text-decoration: none; }
+      .lc-recent-posts .lc-recent-post .lc-sidebar-post-meta span:before {
+        color: #989898;
+        margin-right: 6px;
+        line-height: 6px;
+        font-size: 14px; }
+
+/*# sourceMappingURL=widgets.css.map */

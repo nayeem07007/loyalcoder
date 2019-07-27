@@ -1,0 +1,71 @@
+/*
+Theme Name: Loyal Coder
+Theme URI: https://loyalcoder.com
+Author: Loyalcoder team
+Author URI: https://loyalcoder.com/author
+Description: Personal personal only
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: loyalcoder
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+img {
+    height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+    max-width: 100%; /* Prevent images from overflowing their boundaries */
+}
+#ie8 img {
+    width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
+.aligncenter,
+.alignleft,
+.alignright,
+.alignnone {
+    display: block;
+}
+.aligncenter { /* Center-aligned images with no captions */
+    margin: 26px auto;
+}
+.alignleft { /* Left-aligned images with no captions */
+    float: left;
+    margin: 26px 26px 26px 0;
+}
+.alignright { /* Right-aligned images with no captions */
+    float: right;
+    margin: 26px 0 26px 26px;
+}
+.alignnone { /* Images with no alignments and no captions */
+    display: inline;
+    margin: 0 0 -7px 0;
+}
+div.alignnone { /* Captions with no alignment */
+    display: block;
+}
+.wp-caption { /* WordPress Captions */
+    border: 1px solid rgb( 230, 230, 230 ); /* #e6e6e6 */
+    border: 1px solid rgba( 230, 230, 230, 0.8 );
+    max-width: 96%; /* Prevent captions from overflowing into sidebars and other adjacent content */
+    margin-bottom: 26px; /* Value should match line-height */
+    padding: 13px 8px 3px; /* WordPress automatically adds 5 pixels of padding on the right and left sides of captions, add balance */
+}
+.wp-caption img {
+    display: block;
+    margin: 0 auto 3px auto;
+}
+.wp-caption-text { /* This text is contained within the caption */
+    font-family: 'Droid Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 0;
+    padding: 2px 0 3px 0;
+    text-align: center;
+}
+*{
+    word-break: break-all;
+}

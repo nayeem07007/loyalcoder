@@ -1,0 +1,26 @@
+@import "../coponent/_color";
+
+.post-meta{
+  margin-bottom: 10px;
+  span{
+    color: $post_meta_color;
+    margin-right: 10px;
+    text-transform: capitalize;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      color: $post_meta_color;
+      &:hover{
+        color: $link_hover_color;
+        text-decoration: none;
+      }
+    }
+    &:before{
+      color: $post_meta_color;
+      margin-right: 6px;
+      line-height: 6px;
+      font-size: 14px;
+    }
+  }
+}
