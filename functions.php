@@ -97,6 +97,7 @@ function loyalcoder_setup() {
 
     // Add theme support for selective refresh for widgets.
     add_theme_support( 'customize-selective-refresh-widgets' );
+    add_theme_support( 'woocommerce' );
 
     add_theme_support( 'editor-styles' );
 
