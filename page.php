@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <div class="lc-page mt-4">
+                <div class="lc-page mt-5">
 
                         <?php
                         while(have_posts()) : the_post();

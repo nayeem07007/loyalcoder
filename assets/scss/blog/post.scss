@@ -1,5 +1,13 @@
 @import "../coponent/_color";
 @import "../mixins/mixins";
+.lc-blog-post, .lc-page{
+  box-shadow: 1px -3px 16px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+.widget-area{
+  box-shadow: 1px -3px 16px 0px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
 .lc-blog-post h3{
   color: $post_heading_color;
   a{
@@ -151,5 +159,27 @@ table{
   margin-bottom: 10px;
   input{
     margin-right: 5px;
+  }
+}
+/* Paagination */
+
+.nav-links {
+  a, span.current{
+    display: inline-block;
+    padding: 5px 10px;
+    background: red;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 31px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  span.current{
+    background: gray !important;
   }
 }

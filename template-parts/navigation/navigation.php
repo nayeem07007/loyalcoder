@@ -1,6 +1,7 @@
 <?php
 
-$image = get_theme_mod( 'image_setting_id', 0 ); ?>
+$image =  get_theme_mod( 'custom_logo' );
+ ?>
 
 <header id="lc-header" class="container-fuild p-0 lc-header">
     <div class="header-top">
@@ -15,7 +16,7 @@ $image = get_theme_mod( 'image_setting_id', 0 ); ?>
                     ?>
                     <span>Loyalcoder</span>
                 <?php }else{
-                    echo wp_get_attachment_image($image, array(71, 41));
+                    echo wp_get_attachment_image($image, [200, 250]);
                 } ?>
 
             </a>

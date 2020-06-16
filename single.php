@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 <div class="container-fluid">
-    <div class="container mt-4">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8 mt-5">
                 <div class="lc-blog-post lc-blog-post-styl-1">
                     <?php
 

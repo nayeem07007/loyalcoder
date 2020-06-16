@@ -2,10 +2,9 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8 mt-5">
                 <div class="lc-blog-post lc-blog-post-styl-1">
 
-                    <div class="lc-blog-post lc-blog-post-styl-1">
                         <?php if(have_posts()) : ?>
                         <header class="page-header mt-4">
                             <?php
@@ -29,7 +28,6 @@
                         else: get_template_part( 'template-parts/posts/content', 'none' );
                         endif;
                         ?>
-                    </div>
                 </div>
             </div>
 

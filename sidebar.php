@@ -10,6 +10,6 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<aside id="secondary" class="widget-area col-lg-4 mt-3" role="complementary" aria-label="<?php esc_attr_e( 'Blog Sidebar', 'loyalcoder' ); ?>">
+<aside id="secondary" class="widget-area col-sm-3 mt-5" role="complementary" aria-label="<?php esc_attr_e( 'Blog Sidebar', 'loyalcoder' ); ?>">
     <?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->
